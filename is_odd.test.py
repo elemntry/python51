@@ -14,4 +14,3 @@ def is_odd_test(num):
 is_odd_test(3)
 is_odd_test(6)
 is_odd_test(9)
-is_odd_test("asd")

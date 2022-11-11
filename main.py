@@ -7,6 +7,10 @@ def calculate(a, b):
     return a + b
 
 
+def is_odd(num):
+    return num % 2 != 0
+
+
 @app.route("/")
 def index():
     # return f"This is a payment pag! Please pay {calculate(5,5)} USD"
